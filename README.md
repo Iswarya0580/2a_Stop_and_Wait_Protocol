@@ -12,7 +12,8 @@ To write a python program to perform stop and wait protocol
 6. Stop the Program
 ## PROGRAM
 ## Client-Side
-![Screenshot 2024-03-01 141308](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/7e01bad6-18ba-4921-bad5-4ec5f63a6880)
+![image](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/3df91efb-7eef-442e-a798-306a5b83e9ed)
+
 ## Server-Side
 ![2qct62rd](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/8652bb00-4e10-4594-b6d2-1b824feb0860)
 
