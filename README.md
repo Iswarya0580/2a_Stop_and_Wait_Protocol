@@ -1,4 +1,6 @@
 # 2a_Stop_and_Wait_Protocol
+# Name :Iswarya P
+# Reg no:212223230082
 ## AIM 
 To write a python program to perform stop and wait protocol
 ## ALGORITHM
@@ -12,11 +14,11 @@ To write a python program to perform stop and wait protocol
 ## Client-Side
 ![Screenshot 2024-03-01 141308](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/7e01bad6-18ba-4921-bad5-4ec5f63a6880)
 ## Server-Side
-![Screenshot 2024-03-01 141551](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/50d444a2-2a97-41d8-9206-2342407ceb29)
-
+![2qct62rd](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/8652bb00-4e10-4594-b6d2-1b824feb0860)
 
 ## OUTPUT
-![output](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/228ae7ae-f813-4772-b2e6-d4aab4dfe55c)
+![wk8wu21f](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/5c4fc40b-3735-453b-b5a1-76fa963c80b1)
+
 
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed.
