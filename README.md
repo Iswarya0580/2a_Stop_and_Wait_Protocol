@@ -12,10 +12,33 @@ To write a python program to perform stop and wait protocol
 6. Stop the Program
 ## PROGRAM
 ## Client-Side
-![image](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/3df91efb-7eef-442e-a798-306a5b83e9ed)
+```
+import socket
+s=socket.socket()
+s.bind(('localhost',8000))
+s.listen(5)
+c,addr=s.accept()
+while True:
+ i=input("Enter a data: ")
+ c.send(i.encode())
+ ack=c.recv(1024).decode()
+ if ack:
+ print(ack)
+ continue
+ else:
+ c.close()
+ break
+```
 
 ## Server-Side
-![2qct62rd](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/8652bb00-4e10-4594-b6d2-1b824feb0860)
+```
+import socket
+s=socket.socket()
+s.connect(('localhost',8000))
+while True:
+ print(s.recv(1024).decode())
+ s.send("Acknowledgement Recived".encode())
+```
 
 ## OUTPUT
 ![wk8wu21f](https://github.com/Iswarya0580/2a_Stop_and_Wait_Protocol/assets/149989171/5c4fc40b-3735-453b-b5a1-76fa963c80b1)
